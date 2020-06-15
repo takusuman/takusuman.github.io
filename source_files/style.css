@@ -353,6 +353,12 @@ li ul {
   margin: 2em 0 0 0;
 }
 
+#main-copy marquee {
+       color: red;
+       font-weight: bold;
+       font-style: italic;
+}
+
 #main-copy .topOfPage {
   color: black;
   background-color: transparent;
