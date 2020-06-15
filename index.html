@@ -16,8 +16,36 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
     <meta name="description" content="Minha página pessoal.">
     <meta name="author" content="Luiz Antônio Rangel">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Change page text when reloading -->
+    <script>
+  function fortune6(){
+            var fortune = [
+            "Shut up and hack!", 
+            "THE PLAN FELL OFF.", 
+            "The internet is not for sissies.", 
+            "I have a hard time believing you.", 
+            "The comedy just never ends.", 
+            "Go read the source code some time.", 
+            "Let idiots suffer on their own.", 
+            "Benevolent dictator? No, I'm just lazy.", 
+            "God is essential!", 
+            "I can't get to sleep, i think about the implications...", 
+            "Tem gente que passa a vida inteira travando a inútil luta com os galhos, sem saber que é lá no tronco que está o coringa do baralho.",
+            "Não diga que a vitória está perdida se é de batalhas que se vive a vida.", 
+            "Tenha fé em Deus, tenha fé na vida.", 
+            "De que o mel é doce é coisa que eu me nego a afirmar, mas que parece doce eu afirmo plenamente.", 
+            "Os fascistas do futuro chamarão a si mesmos de antifascistas.", 
+            "Aparelho excretor não reproduz.", 
+            "Um homem sem personalidade não é um homem, é apenas um mero fantoche feito para ser controlado por alguém."
+            ];
+            var randomfortune = fortune[Math.floor(Math.random() * fortune.length)];
+            var chtxt = document.getElementById('marquee');
+            chtxt.innerHTML = randomfortune
+        }
+
+    </script>
 </head>
-<body>
+<body onload="fortune6()">
 <div id="header">
 <div class="superHeader">
 <div class="left">
@@ -96,7 +124,8 @@ Just to remember...
 <h3>Me chamo Luiz Antônio. Gosto de computadores, exatas em geral e de falar sobre história e geopolítica.<br />Maiores informações sobre minha pessoa estão na secção <a href="https://luiznluiztheblues.github.io/whoami.html"<tt>whoami</tt></a>. 
 <br />
 <b>
-<marquee><font color='red'>Shut up and hack!</marquee>
+	<!-- <marquee><font color='red'>Shut up and hack!</marquee>-->
+	<marquee id="marquee"></marquee>
 </b>
 </p><p>
 <a href="https://github.com/luiztheblues" target="_b"><img src="./source_files/git.png" height="40" border="0" title="Build software better, together."></a>
