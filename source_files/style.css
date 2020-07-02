@@ -286,7 +286,7 @@ li ul {
 #main-copy p {
   margin: 1em 1ex 1em 1ex !important; /* Need !important so troff-generated pages don't look totally squezed */
   padding: 0;
-  color: lightyellow;
+  color: white;
 }
 
 #main-copy a id {
@@ -310,7 +310,8 @@ li ul {
 }
 
 #main-copy h1 {
-  color: #F0E67C;
+/*color: #F0E67C;*/
+  color: yellow;
   background-color: transparent;
   font-size: 145.5%;
   font-weight: bold;
@@ -321,7 +322,7 @@ li ul {
 
 #main-copy h2 {
   color: #F0E67C;
-/*  color: yellow; */
+/*color: yellow;*/
   background-color: transparent;
   font-size: 125.5%;
   font-weight: bold;
@@ -331,14 +332,16 @@ li ul {
 }
 
 #main-copy h3 {
-  color: lightyellow;
+/*  color: lightyellow; */
+  color: white;
   background-color: transparent;
   font-size: 115.5%;
   font-weight: bold;
 }
 
 #main-copy h4 {
-  color: lightyellow;
+/*  color: lightyellow; */
+  color: white;
   background-color: transparent;
   font-size: 95%;
   font-weight: light;
