@@ -199,6 +199,7 @@ body {
 }
 
 #side-bar ul {
+  color: white;
   list-style-type: none;
   list-style-position: outside;
   margin: 0;
@@ -206,7 +207,8 @@ body {
 }
 
 li ul {
-  padding-left: 1.0em;
+ color: white; 
+ padding-left: 1.0em;
 }
 
 #side-bar li {
