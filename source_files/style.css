@@ -81,7 +81,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
 
 
 body {
-  background: #000000 url('/black_pix.jpeg');
+  background: #FFFFFF url('/black_pix.jpeg');
   color: #222222;
   font-family: 'IBM Plex Sans Text';
   font-size: 84%;  /* Enables font size scaling in MSIE */
@@ -90,8 +90,8 @@ body {
 }
 /* # Header # */
 .superHeader {
-  color: #F0E67C;
-  background-color: #F0E67C;
+  color: #000000;
+  background-color: #000000;
   height: 1.6em;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .superHeader a {
-  color: blue;
+  color: yellow;
   background-color: transparent;
   text-decoration: none;
   font-size: 91%;
@@ -109,7 +109,7 @@ body {
 }
 .superHeader a:hover {
   text-decoration: none;
-  color: purple;
+  color: red;
   background-color: transparent;
 }
 
@@ -122,8 +122,8 @@ body {
 .superHeader .right { right: 0.4em; }
 
 .midHeader {
-  background-color: #F0E67C;
-  border: solid 0 #F0E69C;
+  background-color: #1A3060;
+  border: solid 0 #1A3060;
   border-width: 2px 0;
 }
 
@@ -142,11 +142,11 @@ body {
 }
 
 .headerTitle a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .headerTitle a:hover {
-  color: purple;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
@@ -188,18 +188,18 @@ body {
 }
 
 #side-bar div {
-  border-bottom: 1px #E0D0C0;
+  border-bottom: 1px blue;
 }
 
 .sideBarTitle {
-  color: lightyellow;
+  color: black;
   font-weight: bold;
   margin: 0 0 0.5em 2mm;
   padding: 1em 0 0 0;
 }
 
 #side-bar ul {
-  color: white;
+  color: black;
   list-style-type: none;
   list-style-position: outside;
   margin: 0;
@@ -217,7 +217,7 @@ li ul {
 }
 
 #side-bar a {
-  color: yellow;
+  color: #39346E;
   background-color: transparent;
   text-decoration: none;
   text-transform: none;
@@ -237,7 +237,7 @@ li ul {
 
 #side-bar a:hover {
   color: white;
-  background-color: blue;
+  background-color: #6566A0;
   border-left: black solid 0.2em;
   text-decoration: none;
 }
@@ -270,14 +270,14 @@ li ul {
 /* # Main Copy # */
 #main-copy {
   max-width: 70em;
-  color: yellow;
+  color: black;
   background-color: transparent;
   text-align: justify;
   word-wrap: break-word;
   line-height: 1.5em;
   margin: 0em 0 0 16em;
   padding: 0.5mm 5mm 5mm 5mm;
-  border-left: 2px solid #b5a77b;
+  border-left: 2px solid #1A3060;
 }
 
 #bodyText {
@@ -288,7 +288,7 @@ li ul {
 #main-copy p {
   margin: 1em 1ex 1em 1ex !important; /* Need !important so troff-generated pages don't look totally squezed */
   padding: 0;
-  color: white;
+  color: black;
 }
 
 #main-copy a id {
@@ -299,7 +299,7 @@ li ul {
 }
 
 #main-copy a {
-  color: blue;
+  color: #39346E;
   background-color: transparent;
   font-weight: bold;
   text-decoration: none;
@@ -313,29 +313,28 @@ li ul {
 
 #main-copy h1 {
 /*color: #F0E67C;*/
-  color: yellow;
+  color: #3B3C3D;
   background-color: transparent;
   font-size: 145.5%;
   font-weight: bold;
   margin: 2em 0 0 0;
   padding: 0.5ex 0 0.5ex 0.6ex;
-  border-bottom: 2px solid #222222;
+  border-bottom: 1px solid #39346E;
 }
 
 #main-copy h2 {
-  color: #F0E67C;
+  color: #3B3C3D;
 /*color: yellow;*/
   background-color: transparent;
   font-size: 125.5%;
   font-weight: bold;
   margin: 2em 0 0 0;
   padding: 0.5ex 0 0.5ex 0.6ex;
-  border-bottom: 1px solid #222222;
 }
 
 #main-copy h3 {
 /*  color: lightyellow; */
-  color: white;
+  color: black;
   background-color: transparent;
   font-size: 115.5%;
   font-weight: bold;
@@ -343,10 +342,10 @@ li ul {
 
 #main-copy h4 {
 /*  color: lightyellow; */
-  color: white;
+  color: black;
   background-color: transparent;
   font-size: 95%;
-  font-weight: light;
+  font-weight: medium;
   /*margin: 2em 0 0 0;*/
   /*border-bottom: 1px solid #222222;*/
 }
