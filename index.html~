@@ -3,7 +3,9 @@ This work is licensed under the Creative Commons Atribuio 4.0 Internacional Lice
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 -->
 <!DOCTYPE html>
-<html><head>
+<html>
+<head>
+    <title>~luiz: Minha página pessoal</title>
 <!-- <link rel="stylesheet" href="./source_files/style.css" type="text/css" media="screen, handheld" title="default"> # Depois tenho que arrumar esse bagulho. --> 
     <link rel="shortcut icon" type="image/x-icon" href="./source_files/vinicius.ico">
     <meta name="author" content="Luiz Antônio">
@@ -52,9 +54,6 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
       h1 {
         color: #FFFFFF;
       }
-      p {
-        display: inline;
-      }
       #title {
         background: #003153;
         border-bottom: 2px solid;
@@ -64,45 +63,25 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
         color: #CBCCCD;
         font-family: "Spleen 16x32", monospace;
       }
-      #icons {
-        display: inline-block;
-      }
     </style>
 </head>
 
 <body onload="fortune6()">
 <center>
-<table cellspacing="0" cellpadding="2" border="0">
-  <tbody><tr>
-    <td id="title"><h1>pindorama.tk/~luiz</h1></td>
+<table border="0" cellpadding="2" cellspacing="0">
+  <tr>
+    <td id="title"><h1>AAA TO COM DEPRESSÃO</h1></td>
   </tr>
   <tr>
-    <td>Your fortune is: <i>"</i><p style="display: inline;" id="marquee">Não diga que a vitória está perdida se é de batalhas que se vive a vida.</p><i>"</i></td>
+    <td>Your fortune is: <i>"</i><p style="display: inline;" id="marquee"></p><i>"</i></td>
   </tr>
   <tr>
-    <td><p id="shell">%; whoami</p><br><p>Meu nome é Luiz</p></td>
+    <td><p style="display: inline;" id="shell">%; whoami</p><br /><p style="display: inline;"></p><br /><p>Meu nome é Luiz</p></td>
+    
   </tr>
-</tbody></table>
-
-<!-- <table style="display: inline-block;">
-    <tbody><tr>
-      <td id="icons"><a href="./dl/pkg"><img style="margin-bottom: 1px;" src="img/icons/settings_package.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Pacotes</p></a></td>
-      <td id="icons"><a href="https://medium.com/@luiz.antonio"><img style="margin-bottom: 1px;" src="img/icons/txt.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Artigos</p></a></td></tr>
-      <td id="icons"><a href="https://www.youtube.com/channel/UC8u1-yhTrGUNhz0mWJiSMNg"><img style="margin-bottom: 1px;" src="img/icons/video.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Vídeos</p></a></td></tr> 
-    </tbody>
-</table> -->
-<div style="width: 70%; background-color: #FFFFFF">
-  <div id="icons">
-    <a href="./dl/pkg"><img style="margin-bottom: 1px;" src="img/icons/settings_package.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Pacotes</p></a>
-  </div>
-  <div id="icons">
-    <a href="https://medium.com/@luiz.antonio"><img style="margin-bottom: 1px;" src="img/icons/txt.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Artigos</p></a>
-  </div>
-  <div id="icons">
-    <a href="https://www.youtube.com/channel/UC8u1-yhTrGUNhz0mWJiSMNg"><img style="margin-bottom: 1px;" src="img/icons/video.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Vídeos</p></a>
-  </div>
-</div>
+  <tr>
+  </tr> 
+</table>
 </center>
-
-
-</body></html>
+</body>
+</html>
