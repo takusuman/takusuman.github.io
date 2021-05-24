@@ -3,9 +3,7 @@ This work is licensed under the Creative Commons Atribuio 4.0 Internacional Lice
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 -->
 <!DOCTYPE html>
-<html>
-<head>
-    <title>~luiz: Minha página pessoal</title>
+<html><head>
 <!-- <link rel="stylesheet" href="./source_files/style.css" type="text/css" media="screen, handheld" title="default"> # Depois tenho que arrumar esse bagulho. --> 
     <link rel="shortcut icon" type="image/x-icon" href="./source_files/vinicius.ico">
     <meta name="author" content="Luiz Antônio">
@@ -25,7 +23,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
                         "I may be an idiot but indeed I am no fool.",    
                         "Não diga que a vitória está perdida se é de batalhas que se vive a vida.", 
                         "Tenha fé em Deus, tenha fé na vida!", 
-                        "De que o mel é doce é coisa que eu me nego a afirmar, mas que parece doce eu afirmo plenamente...", 
+                        "De que o mel é doce é coisa que eu me nego a afirmar,as que parece doce eu afirmo plenamente...", 
                         "Os fascistas do futuro chamarão a si mesmos de antifascistas.", 
                         "Um homem sem personalidade não é um homem, é apenas um mero fantoche feito para ser controlado por alguém.",
                         "Nem direita, nem esquerda. Quando se trata de corrupção, o Brasil é ambidestro."
@@ -36,6 +34,11 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
              }
     </script>
     <style>
+      @font-face {
+        font-family: "Spleen 16x32";
+        src: url(./fonts/spleen-16x32.otf);
+      }
+
       body {
         background-image: url("bg1.gif");
         background-repeat: repeat;
@@ -54,6 +57,9 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
       h1 {
         color: #FFFFFF;
       }
+      p {
+        display: inline;
+      }
       #title {
         background: #003153;
         border-bottom: 2px solid;
@@ -63,25 +69,48 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
         color: #CBCCCD;
         font-family: "Spleen 16x32", monospace;
       }
+      #icons {
+        display: inline-block;
+      }
     </style>
 </head>
 
 <body onload="fortune6()">
+<audio controls>
+  <source src="">
+</audio>
 <center>
-<table border="0" cellpadding="2" cellspacing="0">
-  <tr>
-    <td id="title"><h1>AAA TO COM DEPRESSÃO</h1></td>
+<table cellspacing="0" cellpadding="2" border="0">
+  <tbody><tr>
+    <td id="title"><h1>pindorama.tk/~luiz</h1></td>
   </tr>
   <tr>
     <td>Your fortune is: <i>"</i><p style="display: inline;" id="marquee"></p><i>"</i></td>
   </tr>
   <tr>
-    <td><p style="display: inline;" id="shell">%; whoami</p><br /><p style="display: inline;"></p><br /><p>Meu nome é Luiz</p></td>
-    
+    <td><p id="shell">%; whoami</p><br><p>Meu nome é Luiz</p></td>
   </tr>
-  <tr>
-  </tr> 
-</table>
+</tbody></table>
+<div style="width: 70%; background-color: #FFFFFF">
+  <div id="icons">  
+    <a href="./dl/pkg"><img style="margin-bottom: 1px;" src="img/icons/settings_package.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Pacotes</p></a>
+  </div>
+  <div id="icons">
+    <a href="./bin.html"><img style="margin-bottom: 1px;" src="img/icons/make.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Programas</p></a>
+  </div>
+  <div id="icons">
+    <a href="./projetos.html"><img style="margin-bottom: 1px;" src="img/icons/kfm.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Projetos</p></a>
+  </div>
+  <div id="icons">
+    <a href="https://medium.com/@luiz.antonio"><img style="margin-bottom: 1px;" src="img/icons/txt.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Artigos</p></a>
+  </div>
+  <div id="icons">
+    <a href="https://www.youtube.com/channel/UC8u1-yhTrGUNhz0mWJiSMNg"><img style="margin-bottom: 1px;" src="img/icons/video.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Vídeos</p></a>
+  </div>
+<div id="icons">
+    <a href="mailto:luiz.antonio.rangel@outlook.com.br"><img style="margin-bottom: 1px;" src="img/icons/mail.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Correio<br />Eletr�nico</p></a>
+  </div>
+</div>
 </center>
 </body>
 </html>

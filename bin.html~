@@ -1,0 +1,100 @@
+<!-- 
+This work is licensed under the Creative Commons Atribuio 4.0 Internacional License. 
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+-->
+<!DOCTYPE html>
+<html><head>
+<!-- <link rel="stylesheet" href="./source_files/style.css" type="text/css" media="screen, handheld" title="default"> # Depois tenho que arrumar esse bagulho. --> 
+    <link rel="shortcut icon" type="image/x-icon" href="./source_files/vinicius.ico">
+    <meta name="author" content="Luiz AntÃ´nio">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+      @font-face {
+        font-family: "Spleen 16x32";
+        src: url(./fonts/);
+      }
+
+      body {
+        background-image: url("bg1.gif");
+        background-repeat: repeat;
+      }
+      table {
+        width: 70%;
+        height: 100%;
+        border: 0px;
+        top: 0;
+        bottom: 0;
+        background: #FFFFEA;
+      }
+      td {
+      border: 1px solid black;
+      }
+      h1 {
+        color: #FFFFFF;
+      }
+      p {
+        display: inline;
+      }
+      #title {
+        background: #003153;
+        border-bottom: 2px solid;
+      }
+      #shell {
+        background: #000000;
+        color: #CBCCCD;
+        font-family: "Spleen 16x32", monospace;
+      }
+      #citation {
+        color: #669F96;
+      }
+      #icons {
+        display: inline-block;
+      }
+    </style>
+</head>
+
+<body>
+<center>
+<table cellspacing="0" cellpadding="2" border="0">
+  <tbody><tr>
+    <td id="title"><h1>~luiz/bin</h1></td>
+  </tr>
+  <tr>
+    <td><p id="shell">%; lc bin/</p><br><p>Nessa página irei listar programas que fiz, tanto programas em meu nome quanto em nome de 
+projetos que participo. Se descobrir qualquer bug ou quiser melhorar algo, pode me contatar clicando no ícone de Correio Eletrônico na 
+página 
+principal.</p></td>
+  </tr>
+  <tr id="shell">
+    <td>
+      <p><b>Finalizados:</b></p>
+      <dl>
+        <dt id="citation">&rsaquo; isainfo</dt>
+        <dd>- Um rewrite do <tt>isainfo(1)</tt> do Solaris, baseado nos payloads descritos na manpage; criado para o <a href="./projetos.html#pindorama">Projeto Pindorama</a>.</dd>
+        <dd>Downloads: <a href="https://github.com/Projeto-Pindorama/isainfo">[src]</a></dd>
+      </dl>
+      <dl>
+        <dt id="citation">&rsaquo; nproc</dt>
+        <dd>- Um rewrite do <tt>nproc(1)</tt> do GNU, baseado nos payloads do binario; criado para o <a href="./projetos.html#pindorama">Projeto Pindorama</a>.</dd>
+        <dd>Downloads: <a href="https://github.com/Projeto-Pindorama/nproc">[src]</a></dd>
+      </dl>
+      <dl>
+        <dt id="citation">&rsaquo; uberports</dt>
+        <dd>- Um sistema estilo BSD Ports para o Slackware, baseado no Slackbuilds.org e inspirado no <tt>retroports</tt> do 
+slackjeff. Foi escrito tanto como uma substituição a scripts já existentes quanto como uma implementação simples de Ports para caso 
+alguem queira apenas estudar seu funcionamento.</dd>
+        <dd>Downloads: <a href="https://github.com/luiztheblues/uberports">[src]</a> <a 
+href="./dl/pkg/slackware-14.2/uberports-0.1-noarch-1.txz">[.txz (Slackware)]</a></dd>
+     </dl>
+
+    </td>
+  </tr>
+</tbody></table>
+<div style="width: 70%; background-color: #FFFFFF">
+  <div id="icons">
+    <a href="./index.html"><img style="margin-bottom: 1px;" src="img/icons/kfm_home.png" alt=""><br><p style="display: inline; margin-top: 0px; background: #000000; color: #FFFFEA;">Pasta pessoal de luiz</p></a>
+  </div>
+</div>
+</center>
+</body>
+</html>
