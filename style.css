@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Spleen 16x32";
+    src: url(./fonts/spleen-16x32.otf);
+}
+
+body {
+    background-image: url("bg1.gif");
+    background-repeat: repeat;
+}
+
+table {
+    width: 70%;
+    height: 100%;
+    border: 0px;
+    top: 0;
+    bottom: 0;
+    background: #FFFFEA;
+}
+
+td {
+    border: 1px solid black;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+p {
+    display: inline;
+}
+
+#title {
+    background: #003153;
+    border-bottom: 2px solid;
+}
+
+#shell {
+    background: #000000;
+    color: #CBCCCD;
+    font-family: "Spleen 16x32", monospace;
+}
+
+#citation {
+    color: #669F96;
+}
+
+#icons {
+    display: inline-block;
+}
