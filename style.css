@@ -40,6 +40,12 @@ p {
     font-family: "Spleen 16x32", monospace;
 }
 
+#acme {
+    background: #FFFFEA;
+    color: #424949;
+    font-family: "Spleen 16x32", monospace;
+}
+
 #citation {
     color: #669F96;
 }
