@@ -30,7 +30,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
       <dl>
         <dt id="citation">&rsaquo; lemount</dt>
 		<dd>- Um front-end simples para o <tt>mount</tt>(8), que monta
-		discos de forma mais organizada e sofisticada.<br />Atualmente é um protótipo para prova-de-conceito, futuramente irei reescrever em Go.</dd>
+		discos de forma mais organizada e sofisticada. <br />Atualmente é um protótipo para prova-de-conceito, futuramente irei reescrever em Go.</dd>
         <dd>Downloads: <a href="https://github.com/Projeto-Pindorama/lemount">[src]</a></dd>
      </dl>
     <p><b>Finalizados:</b></p>
