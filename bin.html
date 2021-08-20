@@ -22,19 +22,18 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
   <tr id="shell">
     <td>
      <p><b>Correntes/incompletos:</b></p>
-     <dl>
-        <dt id="citation">&rsaquo; otto-pkg</dt>
-        <dd>- Um sistema estilo BSD Ports para o <a href="">Copacabana OpenLinux</a>, que visa ser automatizado à moda Portage.<br />Começou como uma tentativa de se fazer algo completamente independente, mas como a base antiga de código estava ficando muito bagunçada, decidi engavetar a ideia anterior e simplesmente fazer um "auto-fork" (isso existe?) do uberports.<br />Futuramente, eu tentarei fazer minha ideia original em uma linguagem um pouco mais competente (como Go ou C) e criar algum script que converta os arquivos e pacotes atuais para o novo formato, afim de não quebrar completamente a portabilidade com o otto-pkg atual.</dd>
-        <dd>Downloads: <a href="https://github.com/takusuman/otto-pkg">[src]</a></dd>
-     </dl>
       <dl>
         <dt id="citation">&rsaquo; lemount</dt>
-		<dd>- Um front-end simples para o <tt>mount</tt>(8), que monta
-		discos de forma mais organizada e sofisticada.<br />Atualmente é um protótipo para prova-de-conceito, futuramente irei reescrever em Go.</dd>
+	<dd>- Um front-end simples para o <tt>mount</tt>(8), que monta discos de forma mais organizada e sofisticada.<br />Atualmente é um protótipo para prova-de-conceito, futuramente irei reescrever em Go.</dd>
         <dd>Downloads: <a href="https://github.com/Projeto-Pindorama/lemount">[src]</a></dd>
      </dl>
     <p><b>Finalizados:</b></p>
-     <dl>
+    <dl>  
+       	<dt id="citation">&rsaquo; tinymixer_alsa</dt>
+	<dd>- Um fork do TinyMixer de Yoshihiro Kamawata para uso no ALSA.</dd>
+	<dd>Downloads: <a href="https://github.com/takusuman/tinymixer_alsa">[src]</a></dd>
+    </dl>
+    <dl>
         <dt id="citation">&rsaquo; uberports</dt>
         <dd>- Um sistema estilo BSD Ports para o Slackware, baseado no Slackbuilds.org e inspirado no <tt>retroports</tt> do <a href="http://slackjeff.com.br">slackjeff</a>. Foi escrito tanto como uma substituição a scripts já existentes quanto como uma implementação simples de Ports para caso alguém queira apenas estudar seu funcionamento.</dd>
         <dd>Downloads: <a href="https://github.com/takusuman/uberports">[src]</a> <a href="./dl/pkg/slackware-14.2/uberports-0.1-noarch-1.txz">[.txz (Slackware)]</a></dd>
@@ -43,13 +42,19 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
         <dt id="citation">&rsaquo; isainfo</dt>
         <dd>- Um rewrite do <tt>isainfo(1)</tt> do Solaris, baseado nos payloads descritos na manpage; criado para o <a href="./projetos.html#pindorama">Projeto Pindorama</a>.</dd>
         <dd>Downloads: <a href="https://github.com/Projeto-Pindorama/isainfo">[src]</a></dd>
-      </dl>
-      <dl>
+     </dl>
+     <dl>
         <dt id="citation">&rsaquo; nproc</dt>
         <dd>- Um rewrite do <tt>nproc(1)</tt> do GNU, baseado nos payloads do binário; criado para o <a href="./projetos.html#pindorama">Projeto Pindorama</a>.</dd>
         <dd>Downloads: <a href="https://github.com/Projeto-Pindorama/nproc">[src]</a></dd>
-      </dl>
-     </td>
+     </dl>
+     <p><b>Cancelados/Mudança de planos:</b></p>
+     <dl>
+        <dt id="citation">&rsaquo; otto-pkg</dt>
+        <dd>- Um sistema estilo BSD Ports para o <a href="">Copacabana OpenLinux</a>, que visa ser automatizado à moda Portage.<br />Começou como uma tentativa de se fazer algo completamente independente, mas como a base antiga de código estava ficando muito bagunçada, decidi engavetar tudo.<br />Futuramente, eu tentarei fazer minha ideia original em uma linguagem um pouco mais competente (como Go ou C) e implementar a ideia de Ports paralela ao otto-pkg.</dd>
+        <dd>Downloads: <a href="https://github.com/takusuman/otto-pkg">[src]</a></dd>
+     </dl>
+    </td>
   </tr>
 </tbody></table>
 <div style="width: 70%; background-color: #FFFFEA">
